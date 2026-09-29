@@ -4,7 +4,7 @@
     {
       "name": "@stackline/karma-jasmine",
       "path": "README.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -19,8 +19,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/karma-jasmine/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/karma-jasmine/-/karma-jasmine-1.0.0.tgz",
       "baselineIntegrity": "sha512-Ph3hMxWB5GGIK0j/J95tVOii+jqdPhBXWnFs08S6kXp2/0jkOsHzuqwLC9VbWB+AUNmojVw/zK9txnK9nWaQmw==",
-      "expectedSha512": "6e213aa3404558d007725b883564d42c2ec6aa24c2f3782ddc69f7449413d98f7481f31dba1729281ba98de63d92d3eaeb3acd932a48333f68f1d4cba6599cb3",
-      "tag": "docs-stackline-karma-jasmine-v1.0.1"
+      "expectedSha512": "28552c157209cea1a1052a26ba948609c62168c864ef0ccdcefea1bd91ef6ee137c0d891d421e52bf09ccb4749c34f8d4442f98bac3c0c5b8f50c0d5c4ea1162",
+      "tag": "docs-stackline-karma-jasmine-v1.0.2"
     }
   ]
 }
