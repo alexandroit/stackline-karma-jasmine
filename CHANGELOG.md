@@ -1,3 +1,11 @@
+# Stackline changes
+
+## 1.0.0
+
+- Scoped maintenance fork of karma-jasmine@5.1.0; preserve original library/task sources, API, dependencies and engines.
+- Replace obsolete lint/release tools with modern development runners, retain functional upstream tests and add packed-consumer integration.
+- Gate exact artifacts with full audit, CI, CodeQL, npm provenance and immutable GitHub releases.
+
 # [5.1.0](https://github.com/karma-runner/karma-jasmine/compare/v5.0.1...v5.1.0) (2022-06-16)
 
 

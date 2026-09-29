@@ -1,3 +1,19 @@
+# @stackline/karma-jasmine
+
+Independent maintenance fork of `karma-jasmine@5.1.0`. Original API, module format, runtime dependency ranges, and supported Node.js engines are preserved.
+
+```sh
+npm install @stackline/karma-jasmine
+# Preserve existing imports with an npm alias:
+npm install karma-jasmine@npm:@stackline/karma-jasmine@1.0.0
+```
+
+See [UPSTREAM.md](UPSTREAM.md) for the exact source and issue review, and [CHANGELOG.md](CHANGELOG.md) for focused maintenance changes. Development and release tooling runs on Node.js 24; that does not change the library runtime requirement.
+
+Maintained by [Stackline](https://alexandro.net/). [Issues](https://github.com/alexandroit/stackline-karma-jasmine/issues) · [npm](https://www.npmjs.com/package/@stackline/karma-jasmine).
+
+## Upstream documentation
+
 # karma-jasmine
 
 [![npm version](https://img.shields.io/npm/v/karma-jasmine?style=flat-square)](https://www.npmjs.com/package/karma-jasmine)

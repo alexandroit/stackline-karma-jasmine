@@ -1,54 +1,44 @@
 {
-  "name": "karma-jasmine",
-  "version": "4.0.1",
+  "name": "@stackline/karma-jasmine",
+  "version": "1.0.0",
   "description": "A Karma plugin - adapter for Jasmine testing framework.",
   "main": "lib/index.js",
   "files": [
-    "lib/*.js"
+    "lib/*.js",
+    "LICENSE*",
+    "license*",
+    "NOTICE",
+    "UPSTREAM.md",
+    "CHANGELOG.md",
+    "README.md",
+    "readme.md"
   ],
   "scripts": {
     "build": "grunt build",
-    "lint": "eslint \"**/*.js\"",
-    "lint:fix": "eslint --fix \"**/*.js\"",
-    "commitlint": "commitlint",
-    "test": "npm run test:unit && npm run test:e2e && npm run test:integration",
-    "test:unit": "jasmine",
-    "test:e2e": "karma start karma.conf.js",
-    "test:integration": "bash tools/integration-tests.sh",
-    "release": "semantic-release"
+    "test": "jasmine && node test/stackline.cjs",
+    "test:package": "node scripts/test-package.mjs"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/karma-runner/karma-jasmine.git"
+    "url": "git+https://github.com/alexandroit/stackline-karma-jasmine.git"
   },
   "keywords": [
     "karma-plugin",
     "karma-adapter",
-    "jasmine"
+    "jasmine",
+    "stackline",
+    "maintenance-fork"
   ],
   "author": "Vojta Jina <vojta.jina@gmail.com>",
   "dependencies": {
     "jasmine-core": "^4.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.2.3",
-    "@commitlint/config-angular": "^16.2.3",
-    "@semantic-release/changelog": "^6.0.1",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^8.0.4",
-    "@semantic-release/npm": "^9.0.1",
-    "eslint": "^7.32.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.2.0",
-    "eslint-plugin-standard": "^4.1.0",
-    "grunt": "^1.5.2",
-    "husky": "^4.3.8",
-    "jasmine": "^4.1.0",
-    "karma": "^6.3.18",
-    "karma-firefox-launcher": "^2.1.2",
-    "semantic-release": "^19.0.2"
+    "grunt": "1.6.3",
+    "grunt-cli": "1.5.0",
+    "jasmine": "4.6.0",
+    "karma": "6.4.4",
+    "karma-chrome-launcher": "3.2.0"
   },
   "peerDependencies": {
     "karma": "^6.0.0"
@@ -89,7 +79,7 @@
     "Georgii Dolzhykov <thorn.mailbox@gmail.com>",
     "Gregg Van Hove <gvanhove@pivotal.io>",
     "Jacob Trimble <modmaker@google.com>",
-    "João Pereira <joaopapereira@gmail.com>",
+    "Jo\u00e3o Pereira <joaopapereira@gmail.com>",
     "Keen Yee Liau <kyliau@google.com>",
     "Limon Monte <limon.monte@gmail.com>",
     "Luis Aleman <Lalem001@users.noreply.github.com>",
@@ -99,7 +89,7 @@
     "Niels Dequeker <niels.dequeker@gmail.com>",
     "Robin Gloster <robin@loc-com.de>",
     "Sahat Yalkabov <sakhat@gmail.com>",
-    "Sampo Kivistö <sampo.kivisto@visma.com>",
+    "Sampo Kivist\u00f6 <sampo.kivisto@visma.com>",
     "Schaaf, Martin <703355+mschaaf@users.noreply.github.com>",
     "Sergey Tatarintsev <sevinf@yandex-team.ru>",
     "Sid Vishnoi <sidvishnoi8@gmail.com>",
@@ -111,5 +101,13 @@
     "jiverson <jiverson222@gmail.com>",
     "rpark <objectiv@gmail.com>",
     "strille <strille@users.noreply.github.com>"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/alexandroit/stackline-karma-jasmine/issues"
+  },
+  "homepage": "https://github.com/alexandroit/stackline-karma-jasmine#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
 }

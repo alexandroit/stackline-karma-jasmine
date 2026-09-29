@@ -8,13 +8,14 @@ module.exports = function (config) {
       'test/*.js'
     ],
 
-    browsers: ['FirefoxHeadless'],
+    browsers: ['StacklineChrome'],
+    customLaunchers: { StacklineChrome: { base: 'ChromeHeadless', flags: ['--no-sandbox'] } },
 
     singleRun: true,
 
     plugins: [
-      'karma-firefox-launcher',
-      require.resolve('./')
+      'karma-chrome-launcher',
+      process.env.STACKLINE_TEST_PACKAGE || require.resolve('./')
     ]
   })
 }

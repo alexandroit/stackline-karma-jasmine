@@ -1,0 +1,1 @@
+const assert=require('node:assert/strict');process.env.CHROME_BIN ||= '/usr/bin/google-chrome';const {Server}=require('karma');new Server({configFile:require('node:path').resolve('karma.conf.js'),singleRun:true,port:0},code=>{assert.equal(code,0,'real Jasmine browser tests pass');}).start();

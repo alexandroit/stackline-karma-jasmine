@@ -5,3 +5,8 @@ lib/adapter.js
 integration-tests/
 .DS_Store
 /karma-jasmine-*.tgz
+
+node_modules/
+.package-consumer/
+artifact/
+*.tgz
