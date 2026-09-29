@@ -4,13 +4,13 @@
 
 [![npm version](https://img.shields.io/npm/v/@stackline/karma-jasmine.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/karma-jasmine)
 [![license](https://img.shields.io/npm/l/@stackline/karma-jasmine.svg?style=flat-square)](https://github.com/alexandroit/stackline-karma-jasmine)
-[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-karma-jasmine-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-karma-jasmine)
+[![GitHub repository](https://img.shields.io/badge/GitHub-repository-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-karma-jasmine)
 [![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/karma-jasmine/)
 [![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
 
 **[Documentation](https://alexandro.net/docs/vanilla/karma-jasmine/)** | **[npm](https://www.npmjs.com/package/@stackline/karma-jasmine)** | **[Issues](https://github.com/alexandroit/stackline-karma-jasmine/issues)** | **[Repository](https://github.com/alexandroit/stackline-karma-jasmine)**
 
-**Current package version:** `1.0.1`
+**Current package version:** `1.0.2`
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/karma-jasmine@1.0.1` |
+| Package | `@stackline/karma-jasmine@1.0.2` |
 | API target | `karma-jasmine@5.1.0` |
 | Supported Node.js | `>=12` |
 | License | `MIT` |
