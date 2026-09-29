@@ -1,6 +1,6 @@
 {
   "name": "@stackline/karma-jasmine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Karma plugin - adapter for Jasmine testing framework.",
   "main": "lib/index.js",
   "files": [
@@ -23,10 +23,13 @@
     "url": "git+https://github.com/alexandroit/stackline-karma-jasmine.git"
   },
   "keywords": [
+    "stackline",
+    "npm-package",
+    "karma-jasmine",
     "karma-plugin",
+    "nodejs",
     "karma-adapter",
     "jasmine",
-    "stackline",
     "maintenance-fork"
   ],
   "author": "Vojta Jina <vojta.jina@gmail.com>",
@@ -79,7 +82,7 @@
     "Georgii Dolzhykov <thorn.mailbox@gmail.com>",
     "Gregg Van Hove <gvanhove@pivotal.io>",
     "Jacob Trimble <modmaker@google.com>",
-    "Jo\u00e3o Pereira <joaopapereira@gmail.com>",
+    "João Pereira <joaopapereira@gmail.com>",
     "Keen Yee Liau <kyliau@google.com>",
     "Limon Monte <limon.monte@gmail.com>",
     "Luis Aleman <Lalem001@users.noreply.github.com>",
@@ -89,7 +92,7 @@
     "Niels Dequeker <niels.dequeker@gmail.com>",
     "Robin Gloster <robin@loc-com.de>",
     "Sahat Yalkabov <sakhat@gmail.com>",
-    "Sampo Kivist\u00f6 <sampo.kivisto@visma.com>",
+    "Sampo Kivistö <sampo.kivisto@visma.com>",
     "Schaaf, Martin <703355+mschaaf@users.noreply.github.com>",
     "Sergey Tatarintsev <sevinf@yandex-team.ru>",
     "Sid Vishnoi <sidvishnoi8@gmail.com>",
@@ -105,7 +108,7 @@
   "bugs": {
     "url": "https://github.com/alexandroit/stackline-karma-jasmine/issues"
   },
-  "homepage": "https://github.com/alexandroit/stackline-karma-jasmine#readme",
+  "homepage": "https://alexandro.net/docs/vanilla/karma-jasmine/",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"

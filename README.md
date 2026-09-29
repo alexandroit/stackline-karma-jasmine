@@ -1,33 +1,58 @@
 # @stackline/karma-jasmine
 
-Independent maintenance fork of `karma-jasmine@5.1.0`. Original API, module format, runtime dependency ranges, and supported Node.js engines are preserved.
+> A Karma plugin - adapter for Jasmine testing framework.
 
-```sh
+[![npm version](https://img.shields.io/npm/v/@stackline/karma-jasmine.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/karma-jasmine)
+[![license](https://img.shields.io/npm/l/@stackline/karma-jasmine.svg?style=flat-square)](https://github.com/alexandroit/stackline-karma-jasmine)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-karma-jasmine-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-karma-jasmine)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/karma-jasmine/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/karma-jasmine/)** | **[npm](https://www.npmjs.com/package/@stackline/karma-jasmine)** | **[Issues](https://github.com/alexandroit/stackline-karma-jasmine/issues)** | **[Repository](https://github.com/alexandroit/stackline-karma-jasmine)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/karma-jasmine` is the Stackline-maintained distribution of `karma-jasmine@5.1.0`. It is an independent continuation of [karma-jasmine](https://github.com/karma-runner/karma-jasmine); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/karma-jasmine@1.0.1` |
+| API target | `karma-jasmine@5.1.0` |
+| Supported Node.js | `>=12` |
+| License | `MIT` |
+| Main entry | `lib/index.js` |
+| Runtime dependencies | `jasmine-core` |
+| Peer dependencies | `karma ^6.0.0` |
+
+## Installation
+
+```bash
 npm install @stackline/karma-jasmine
-# Preserve existing imports with an npm alias:
-npm install karma-jasmine@npm:@stackline/karma-jasmine@1.0.0
 ```
 
-See [UPSTREAM.md](UPSTREAM.md) for the exact source and issue review, and [CHANGELOG.md](CHANGELOG.md) for focused maintenance changes. Development and release tooling runs on Node.js 24; that does not change the library runtime requirement.
+Preserve existing imports and plugin resolution with an npm alias:
 
-Maintained by [Stackline](https://alexandro.net/). [Issues](https://github.com/alexandroit/stackline-karma-jasmine/issues) · [npm](https://www.npmjs.com/package/@stackline/karma-jasmine).
+```bash
+npm install karma-jasmine@npm:@stackline/karma-jasmine
+```
 
-## Upstream documentation
+## Usage and API reference
 
-# karma-jasmine
+### karma-jasmine
 
-[![npm version](https://img.shields.io/npm/v/karma-jasmine?style=flat-square)](https://www.npmjs.com/package/karma-jasmine)
-[![npm downloads](https://img.shields.io/npm/dm/karma-jasmine?style=flat-square)](https://www.npmjs.com/package/karma-jasmine)
-[![Release Workflow Status](https://img.shields.io/github/workflow/status/karma-runner/karma-jasmine/Release/master?style=flat-square&logo=github&label=Release)](https://github.com/karma-runner/karma-jasmine/actions/workflows/release.yml?query=branch%3Amaster)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen?style=flat-square)](https://github.com/karma-runner/karma-jasmine)
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079?style=flat-square)](https://github.com/semantic-release/semantic-release)
 
 > Adapter for the [Jasmine](https://jasmine.github.io/) testing framework.
 
 ## Installation
 
 ```bash
-npm install karma-jasmine --save-dev
+npm install @stackline/karma-jasmine --save-dev
 ```
 
 ## Configuration
@@ -126,3 +151,73 @@ describe('spec', () => {
 ---
 
 For more information on Karma see the [homepage](https://karma-runner.github.io/).
+
+## Credits and original authors
+
+- Original project: [karma-jasmine](https://github.com/karma-runner/karma-jasmine).
+- Vojta Jina.
+- Maksim Ryzhikov.
+- johnjbarton.
+- Jonathan Ginsburg.
+- Mark Ethan Trostler.
+- Friedel Ziegelmayer.
+- XhmikosR.
+- olegskl.
+- semantic-release-bot.
+- dependabot[bot].
+- dignifiedquire.
+- Cornelius Schmale.
+- Arthur Thornton.
+- Patrick McGuckin.
+- Richard Park.
+- Fernando Costa.
+- Nico Jansen.
+- Aaron Hartwig.
+- Alesei N.
+- Barry Fitzgerald.
+- Dirk T.
+- Dmitriy Tychshenko.
+- Flavian Hautbois.
+- Georgii Dolzhykov.
+- Gregg Van Hove.
+- Jacob Trimble.
+- João Pereira.
+- Keen Yee Liau.
+- Limon Monte.
+- Luis Aleman.
+- Marek Vavrecan.
+- Matthew Hill.
+- Milan Lempera.
+- Niels Dequeker.
+- Robin Gloster.
+- Sahat Yalkabov.
+- Sampo Kivistö.
+- Schaaf, Martin.
+- Sergey Tatarintsev.
+- Sid Vishnoi.
+- Stefan Dragnev.
+- Tobias Speicher.
+- Todd Wolfson.
+- Vladimir Belov.
+- Yusuke Iinuma.
+- jiverson.
+- rpark.
+- strille.
+- Copyright (C) 2011-2013 Google, Inc.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## License
+
+`MIT`. See the license and notice files in the [repository](https://github.com/alexandroit/stackline-karma-jasmine).
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
